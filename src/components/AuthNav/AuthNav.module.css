@@ -1,0 +1,10 @@
+.nav {
+  display: flex;
+  gap: 10px;
+  font-size: 1.5rem;
+  a {
+    /* color: white; */
+    margin-right: 20px;
+    text-decoration: none;
+  }
+}

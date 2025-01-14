@@ -1,0 +1,17 @@
+.user {
+  font-weight: 600;
+  color: rgb(7, 7, 192);
+}
+
+.button {
+  padding: 7px 20px;
+  border-radius: 4px;
+  border: 1px solid black;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 0 2px 2px rgb(192, 227, 238);
+  }
+
+  transition: box-shadow 0.25s;
+}

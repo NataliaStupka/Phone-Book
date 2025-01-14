@@ -1,0 +1,15 @@
+.nav_list {
+  display: flex;
+  gap: 10px;
+  font-size: 1.5rem;
+  a {
+    /* color: white; */
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  .active {
+    text-decoration: underline;
+    color: rgb(241, 106, 166);
+    font-weight: 700;
+  }
+}

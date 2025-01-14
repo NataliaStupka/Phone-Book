@@ -1,0 +1,22 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -20px;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.item {
+  /* width: 300px; */
+  margin-left: 20px;
+  margin-top: 20px;
+  flex-basis: calc((100% - 40px) / 2);
+  border: 1px solid black;
+  padding: 10px 10px;
+}
+
+.textEmpty {
+  margin: 20px;
+  font-size: 20px;
+}

@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper {
+  margin-right: 15px;
+}
+.icon {
+  margin-right: 8px;
+  color: rgb(41, 6, 19);
+}
+
+.button {
+  height: 60%;
+  padding: 10px 15px;
+  border-radius: 4px;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 0 2px 2px rgb(192, 227, 238);
+  }
+
+  transition: box-shadow 0.25s;
+}
+
+/* .favoriteIcon {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+  text-align: center;
+} */
+
+.favoriteIcon:hover,
+.favoriteIcon:focus {
+  fill: gold;
+}

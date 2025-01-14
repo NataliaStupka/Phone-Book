@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: 1px solid black;
+
+  margin: 20px 0px 30px 20px;
+  padding: 30px 20px;
+  gap: 15px;
+  box-shadow: 0 0 6px 6px rgb(209, 224, 249);
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  padding: 7px 20px;
+  margin: 0 auto;
+  border-radius: 4px;
+  border: 1px solid black;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 0 2px 2px rgb(192, 227, 238);
+  }
+
+  transition: box-shadow 0.25s;
+}
+
+.error {
+  color: red;
+}
