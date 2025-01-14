@@ -10,7 +10,7 @@ import React, { ReactElement } from "react";
 
 interface PrivateRouteProps {
   children: ReactElement; // тип для компонентів, які повертаються JSX. Забезпечує, що children завжди є компонентом
-  redirectTo: string;
+  redirectTo?: string;
 }
 
 //React.FC<PrivateRouteProps>  - типізація функціонального компонента
